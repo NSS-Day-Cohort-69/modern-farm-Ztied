@@ -1,0 +1,23 @@
+title Modern Farm
+
+Main->Plan:Asking for plan 
+Main<--Plan: Getting plan for the seeds
+
+Main->Tractor:asking for what was planted
+Tractor->Seeds:Asking for seeds
+
+Tractor<--Seeds:Gets seeds to plant
+Tractor->Field:plants seeds into the field
+Main<--Tractor:Getting what was planted into the field
+
+Main->Field:Asking for plants 
+
+Main<--Field:Giving plant to harvest
+
+Main->Harvestor:Asking for what plants are being harvested
+Main<--Harvestor:Getting the harvested plants
+
+Main->Catalog:asking for the word to give to the site
+Main<--Catalog:getting the words for the site
+
+

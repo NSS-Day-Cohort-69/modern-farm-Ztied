@@ -12,5 +12,5 @@ export const addPlant = (seed) => {
 }
 
 export const usePlants = () => {
-    return [...field]
+    return field
 }

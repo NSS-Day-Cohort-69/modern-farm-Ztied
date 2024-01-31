@@ -1,6 +1,6 @@
 export const createCorn = () => {
     const cornStalk = {
-        type: "corn",
+        type: "Corn",
         height: 180,
         output: 6
     }

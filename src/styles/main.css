@@ -34,3 +34,20 @@ h1,h2,h3,h4,h5,h6 {
     background-color: darksalmon;
 }
 
+.crops {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.crop__card {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+
+
+
